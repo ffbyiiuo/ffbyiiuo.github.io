@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Elite Tournament</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <header>
+        <div style="border-bottom: 2px solid #ff4646;" class="logo">FFBYIIUO</div>
+        <nav>
+            <a href="#tournaments">Tournaments</a>
+            <a href="#register">Register</a>
+            <a href="#games">Games</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Free Fire Tournament</h1>
+            <p class="subtitle">Compete in the ultimate battle royale with 200+ global communities</p>
+            <div class="cta-buttons">
+                <a href="#register" class="cta-button">Join Now</a>
+                <a href="#tournaments" class="cta-button secondary">View Tournaments</a>
+            </div>
+        </section>
+        <section id="tournaments" class="tournaments">
+            <h2>Tournaments</h2>
+            <div class="tournament-options">
+                <div class="option">
+                    <span class="icon">🔍</span>
+                    <p>Can't find your tournament?</p>
+                    <a href="#create" class="tournament-link">Create Your Own</a>
+                </div>
+                <div class="option">
+                    <span class="icon">🔍</span>
+                    <p>Explore live tournaments</p>
+                    <a href="#tournaments" class="tournament-link">View All</a>
+                </div>
+            </div>
+        </section>
+        <section id="register" class="registration">
+            <h2>Tournament Registration</h2>
+            <form id="tournamentForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required minlength="2">
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="freefire_id">Free Fire ID</label>
+                    <input type="text" id="freefire_id" name="freefire_id" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="student_id">Student ID</label>
+                    <input type="text" id="student_id" name="student_id" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" required min="13" max="100">
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <span class="error-message"></span>
+                </div>
+                <button type="submit" id="payBtn">Pay ₹1 & Register</button>
+            </form>
+        </section>
+        <section id="games" class="similar-games">
+            <h2>Similar Games</h2>
+            <div class="game-grid">
+                <div class="game-card">PUBG Mobile</div>
+                <div class="game-card">Call of Duty Mobile</div>
+                <div class="game-card">Fortnite</div>
+                <div class="game-card">Apex Legends</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div style="border-bottom: 2px solid #ff4646;" class="footer-logo">FFBYIIUO</div>
+        <nav style="padding-top: 10px;" class="footer-nav">
+            <a href="#team">Team</a>
+            <a href="#howto">How to Play</a>
+            <a href="#policy">Privacy Policy</a>
+            <a href="#download">Download</a>
+        </nav>
+        <p style="border-top: 2px solid #ff4646; margin-top: 10px; padding-top: 10px;">All rights reserved by It Is Unique Official © 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
