@@ -88,7 +88,7 @@ payBtn.onclick = () => {
 
     const options = {
         key: "rzp_live_i5o6AxHTDMTQoT",
-        amount: 100,
+        amount: 49900,
         currency: "INR",
         name: "FFBYIIUO",
         image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0wjmyM4jjwHVlu4gJO0mKuIiycxz_ERcphWdTk1hOOpkGljjXXwN00jecw-FBwkmQ2SEXJ6oC2uHG0pknh3cRDK2ht2WhXf9gwMDIbbhAv9lczk9wxB3mwLcRoEtz9YqPtbzpVJ-MYe2yVXKez72onsAJ1irPGkWt7pHAYL43xb_WLKcg7sjW-86U11OX/s512-rw/It%20Is%20Unique%20Official.png",
