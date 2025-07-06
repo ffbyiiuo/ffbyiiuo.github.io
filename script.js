@@ -1,1 +1,152 @@
-const _0x4d926c=_0x3931;(function(_0x5bb671,_0x14c8ea){const _0x4b201c=_0x3931,_0x16b26e=_0x5bb671();while(!![]){try{const _0x6b09df=parseInt(_0x4b201c(0x227))/0x1+-parseInt(_0x4b201c(0x1db))/0x2+-parseInt(_0x4b201c(0x1d5))/0x3*(parseInt(_0x4b201c(0x1d9))/0x4)+-parseInt(_0x4b201c(0x1f4))/0x5*(parseInt(_0x4b201c(0x1e4))/0x6)+parseInt(_0x4b201c(0x20a))/0x7+-parseInt(_0x4b201c(0x1d4))/0x8+parseInt(_0x4b201c(0x1f1))/0x9;if(_0x6b09df===_0x14c8ea)break;else _0x16b26e['push'](_0x16b26e['shift']());}catch(_0x341e0d){_0x16b26e['push'](_0x16b26e['shift']());}}}(_0x1505,0xdc6b6));const scene=new THREE[(_0x4d926c(0x1e0))](),camera=new THREE[(_0x4d926c(0x212))](0x4b,window[_0x4d926c(0x225)]/window[_0x4d926c(0x1ef)],0.1,0x3e8),renderer=new THREE[(_0x4d926c(0x204))]({'canvas':document[_0x4d926c(0x1f7)](_0x4d926c(0x226)),'alpha':!![]});renderer[_0x4d926c(0x1e3)](window[_0x4d926c(0x225)],window[_0x4d926c(0x1ef)]),renderer[_0x4d926c(0x22c)](Math[_0x4d926c(0x206)](window[_0x4d926c(0x1d3)],0x2));function _0x1505(){const _0x387ccd=['click','Scene','value','Pay\x20₹50\x20&\x20Register','setSize','6cAGEKP','fromTo','freefire_id','\x0a🎮\x20Free\x20Fire\x20ID:\x20','input,\x20select','updateProjectionMatrix','setAttribute','from','input','phone','remove','innerHeight','tournamentForm','25673211PerFkP','\x0a💳\x20Payment\x20ID:\x20','\x0a📱\x20Phone:\x20','1453185cdEFNZ','textContent','✅\x20Success!','getElementById','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','https://api.telegram.org/bot6784154796:AAG9E0I8iZcgd-g0ZYzHa9H3782WsYWs0vs/sendMessage','PointsMaterial','Entry\x20Fee','.tournaments','open','color','Please\x20enter\x20a\x20valid\x20name\x20(2+\x20characters)','random','loading','add','Please\x20select\x20a\x20gender','WebGLRenderer','Processing...','min','https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0wjmyM4jjwHVlu4gJO0mKuIiycxz_ERcphWdTk1hOOpkGljjXXwN00jecw-FBwkmQ2SEXJ6oC2uHG0pknh3cRDK2ht2WhXf9gwMDIbbhAv9lczk9wxB3mwLcRoEtz9YqPtbzpVJ-MYe2yVXKez72onsAJ1irPGkWt7pHAYL43xb_WLKcg7sjW-86U11OX/s512-rw/It%20Is%20Unique%20Official.png','addEventListener','test','2061318wYyAVN','resize','onclick','toggle','name','Please\x20enter\x20a\x20valid\x2010-digit\x20phone\x20number','INR','age','PerspectiveCamera','Please\x20enter\x20your\x20Student\x20ID','entries','payBtn','render','BufferAttribute','\x0a🆔\x20Student\x20ID:\x20','aspect','rotation','power3.out','.hero','Please\x20enter\x20your\x20Free\x20Fire\x20ID','Points','querySelectorAll','forEach','position','gender','\x0a🎂\x20Age:\x20','\x0a⚧️\x20Gender:\x20','innerWidth','canvas','837867OZLNpZ','catch','razorpay_payment_id','pattern','nextElementSibling','setPixelRatio','\x0a🏆\x20New\x20Tournament\x20Registration:\x0a👤\x20Name:\x20','stringify','devicePixelRatio','13356128XVDArZ','1614AwEShi','trim','-1002671272866','classList','2224mRaeOb','Please\x20enter\x20a\x20valid\x20age\x20(13-100)','1645602yeDeHH','FFBYIIUO','student_id','rzp_live_i5o6AxHTDMTQoT'];_0x1505=function(){return _0x387ccd;};return _0x1505();}const particleCount=0x5dc,particles=new THREE['BufferGeometry'](),posArray=new Float32Array(particleCount*0x3),colorArray=new Float32Array(particleCount*0x3);for(let i=0x0;i<particleCount*0x3;i++){posArray[i]=(Math[_0x4d926c(0x200)]()-0.5)*0x7d0,colorArray[i]=Math[_0x4d926c(0x200)]()*0.5+0.5;}particles[_0x4d926c(0x1ea)](_0x4d926c(0x221),new THREE['BufferAttribute'](posArray,0x3)),particles[_0x4d926c(0x1ea)](_0x4d926c(0x1fe),new THREE[(_0x4d926c(0x217))](colorArray,0x3));const material=new THREE[(_0x4d926c(0x1fa))]({'size':0x2,'vertexColors':!![],'transparent':!![],'opacity':0.3}),particleSystem=new THREE[(_0x4d926c(0x21e))](particles,material);scene['add'](particleSystem),camera['position']['z']=0x1f4;function animate(){const _0x5ce0a3=_0x4d926c;requestAnimationFrame(animate),particleSystem[_0x5ce0a3(0x21a)]['y']+=0.0007,renderer[_0x5ce0a3(0x216)](scene,camera);}animate(),window[_0x4d926c(0x208)](_0x4d926c(0x20b),()=>{const _0x5ca3c1=_0x4d926c;camera[_0x5ca3c1(0x219)]=window['innerWidth']/window[_0x5ca3c1(0x1ef)],camera[_0x5ca3c1(0x1e9)](),renderer['setSize'](window[_0x5ca3c1(0x225)],window['innerHeight']);}),gsap[_0x4d926c(0x1eb)](_0x4d926c(0x21c),{'duration':1.5,'y':0x32,'opacity':0x0,'ease':'power3.out'}),gsap[_0x4d926c(0x1eb)](_0x4d926c(0x1fc),{'duration':1.5,'y':0x32,'opacity':0x0,'delay':0.5,'ease':'power3.out'}),gsap[_0x4d926c(0x1eb)]('.registration',{'duration':1.5,'y':0x32,'opacity':0x0,'delay':0x1,'ease':_0x4d926c(0x21b)}),gsap[_0x4d926c(0x1eb)]('.similar-games',{'duration':1.5,'y':0x32,'opacity':0x0,'delay':1.5,'ease':'power3.out'});function _0x3931(_0x26366b,_0x1edb80){const _0x1505e2=_0x1505();return _0x3931=function(_0x393160,_0x87de51){_0x393160=_0x393160-0x1d3;let _0x5a7a09=_0x1505e2[_0x393160];return _0x5a7a09;},_0x3931(_0x26366b,_0x1edb80);}const form=document[_0x4d926c(0x1f7)](_0x4d926c(0x1f0)),payBtn=document[_0x4d926c(0x1f7)](_0x4d926c(0x215)),validationRules={'name':{'pattern':/^.{2,}$/,'message':_0x4d926c(0x1ff)},'phone':{'pattern':/^[0-9]{10}$/,'message':_0x4d926c(0x20f)},'freefire_id':{'pattern':/.+/,'message':_0x4d926c(0x21d)},'student_id':{'pattern':/.+/,'message':_0x4d926c(0x213)},'age':{'pattern':/^(1[3-9]|[2-9][0-9]|100)$/,'message':_0x4d926c(0x1da)},'gender':{'pattern':/^(Male|Female|Other)$/,'message':_0x4d926c(0x203)}};function validateInput(_0x5319fd){const _0x1c1913=_0x4d926c,_0x4842a4=validationRules[_0x5319fd[_0x1c1913(0x20e)]],_0x3a740e=_0x4842a4[_0x1c1913(0x22a)][_0x1c1913(0x209)](_0x5319fd[_0x1c1913(0x1e1)]);_0x5319fd[_0x1c1913(0x1d8)][_0x1c1913(0x20d)]('error',!_0x3a740e);const _0x5f1f6a=_0x5319fd[_0x1c1913(0x22b)];return _0x5f1f6a[_0x1c1913(0x1f5)]=_0x3a740e?'':_0x4842a4['message'],_0x3a740e;}form[_0x4d926c(0x21f)]('input,\x20select')[_0x4d926c(0x220)](_0x54cc24=>{const _0x1862b8=_0x4d926c;_0x54cc24[_0x1862b8(0x208)](_0x1862b8(0x1ec),()=>validateInput(_0x54cc24)),_0x54cc24[_0x1862b8(0x208)]('blur',()=>validateInput(_0x54cc24));}),payBtn[_0x4d926c(0x20c)]=()=>{const _0x528539=_0x4d926c;let _0x162ffa=!![];form[_0x528539(0x21f)](_0x528539(0x1e8))[_0x528539(0x220)](_0x3d6901=>{if(!validateInput(_0x3d6901))_0x162ffa=![];});if(!_0x162ffa)return;payBtn[_0x528539(0x1d8)][_0x528539(0x202)](_0x528539(0x201)),payBtn[_0x528539(0x1f5)]=_0x528539(0x205);const _0x2b93d0=new FormData(form),_0x5d56f7=Object['fromEntries'](_0x2b93d0[_0x528539(0x214)]()),_0x1a3746={'key':_0x528539(0x1de),'amount':0xc2ec,'currency':_0x528539(0x210),'name':_0x528539(0x1dc),'image':_0x528539(0x207),'description':_0x528539(0x1fb),'handler':function(_0xde88ad){const _0x50e35d=_0x528539,_0x3c596e=(_0x50e35d(0x22d)+_0x5d56f7[_0x50e35d(0x20e)]+_0x50e35d(0x1f3)+_0x5d56f7[_0x50e35d(0x1ed)]+_0x50e35d(0x1e7)+_0x5d56f7[_0x50e35d(0x1e6)]+_0x50e35d(0x218)+_0x5d56f7[_0x50e35d(0x1dd)]+_0x50e35d(0x223)+_0x5d56f7[_0x50e35d(0x211)]+_0x50e35d(0x224)+_0x5d56f7[_0x50e35d(0x222)]+_0x50e35d(0x1f2)+_0xde88ad[_0x50e35d(0x229)]+_0x50e35d(0x1f8))[_0x50e35d(0x1d6)]();fetch(_0x50e35d(0x1f9),{'method':'POST','headers':{'Content-Type':'application/json'},'body':JSON[_0x50e35d(0x22e)]({'chat_id':_0x50e35d(0x1d7),'text':_0x3c596e})})['then'](()=>{const _0x30044c=_0x50e35d;payBtn[_0x30044c(0x1d8)][_0x30044c(0x1ee)](_0x30044c(0x201)),payBtn[_0x30044c(0x1f5)]=_0x30044c(0x1f6),gsap[_0x30044c(0x1e5)](payBtn,{'scale':0x1},{'scale':1.1,'duration':0.3,'yoyo':!![],'repeat':0x1}),setTimeout(()=>{const _0x18a6d3=_0x30044c;payBtn[_0x18a6d3(0x1f5)]=_0x18a6d3(0x1e2);},0x7d0),alert('✅\x20Registration\x20successful!\x20Check\x20your\x20phone\x20for\x20confirmation.');})[_0x50e35d(0x228)](_0x1e860f=>{const _0x31fd8a=_0x50e35d;payBtn[_0x31fd8a(0x1d8)][_0x31fd8a(0x1ee)]('loading'),payBtn[_0x31fd8a(0x1f5)]=_0x31fd8a(0x1e2),alert('❌\x20Registration\x20failed.\x20Please\x20try\x20again.'),console['error']('Error:',_0x1e860f);});},'prefill':{'name':_0x5d56f7[_0x528539(0x20e)],'contact':_0x5d56f7[_0x528539(0x1ed)]},'theme':{'color':'#ff4646'}},_0xbcfc20=new Razorpay(_0x1a3746);_0xbcfc20[_0x528539(0x1fd)]();},form['onsubmit']=_0x1ca0f1=>{const _0x541d31=_0x4d926c;_0x1ca0f1['preventDefault'](),payBtn[_0x541d31(0x1df)]();};
+// Scene Setup
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('canvas'), alpha: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+// Particle System
+const particleCount = 1500;
+const particles = new THREE.BufferGeometry();
+const posArray = new Float32Array(particleCount * 3);
+const colorArray = new Float32Array(particleCount * 3);
+for (let i = 0; i < particleCount * 3; i++) {
+    posArray[i] = (Math.random() - 0.5) * 2000;
+    colorArray[i] = Math.random() * 0.5 + 0.5;
+}
+particles.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+particles.setAttribute('color', new THREE.BufferAttribute(colorArray, 3));
+const material = new THREE.PointsMaterial({
+    size: 2,
+    vertexColors: true,
+    transparent: true,
+    opacity: 0.3
+});
+const particleSystem = new THREE.Points(particles, material);
+scene.add(particleSystem);
+
+camera.position.z = 500;
+
+function animate() {
+    requestAnimationFrame(animate);
+    particleSystem.rotation.y += 0.0007;
+    renderer.render(scene, camera);
+}
+animate();
+
+window.addEventListener('resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+// GSAP Animations
+gsap.from(".hero", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out" });
+gsap.from(".tournaments", { duration: 1.5, y: 50, opacity: 0, delay: 0.5, ease: "power3.out" });
+gsap.from(".registration", { duration: 1.5, y: 50, opacity: 0, delay: 1, ease: "power3.out" });
+gsap.from(".similar-games", { duration: 1.5, y: 50, opacity: 0, delay: 1.5, ease: "power3.out" });
+
+// Form Validation
+const form = document.getElementById("tournamentForm");
+const payBtn = document.getElementById("payBtn");
+
+const validationRules = {
+    name: { pattern: /^.{2,}$/, message: "Please enter a valid name (2+ characters)" },
+    phone: { pattern: /^[0-9]{10}$/, message: "Please enter a valid 10-digit phone number" },
+    freefire_id: { pattern: /.+/, message: "Please enter your Free Fire ID" },
+    student_id: { pattern: /.+/, message: "Please enter your Student ID" },
+    age: { pattern: /^(1[3-9]|[2-9][0-9]|100)$/, message: "Please enter a valid age (13-100)" },
+    gender: { pattern: /^(Male|Female|Other)$/, message: "Please select a gender" }
+};
+
+function validateInput(input) {
+    const rule = validationRules[input.name];
+    const isValid = rule.pattern.test(input.value);
+    input.classList.toggle('error', !isValid);
+    const errorMessage = input.nextElementSibling;
+    errorMessage.textContent = isValid ? '' : rule.message;
+    return isValid;
+}
+
+form.querySelectorAll('input, select').forEach(input => {
+    input.addEventListener('input', () => validateInput(input));
+    input.addEventListener('blur', () => validateInput(input));
+});
+
+// Payment Button Click
+payBtn.onclick = () => {
+    let isValid = true;
+    form.querySelectorAll('input, select').forEach(input => {
+        if (!validateInput(input)) isValid = false;
+    });
+
+    if (!isValid) return;
+
+    payBtn.classList.add('loading');
+    payBtn.textContent = 'Processing...';
+
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    const options = {
+        key: "rzp_live_i5o6AxHTDMTQoT",
+        amount: 49900,
+        currency: "INR",
+        name: "FFBYIIUO",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0wjmyM4jjwHVlu4gJO0mKuIiycxz_ERcphWdTk1hOOpkGljjXXwN00jecw-FBwkmQ2SEXJ6oC2uHG0pknh3cRDK2ht2WhXf9gwMDIbbhAv9lczk9wxB3mwLcRoEtz9YqPtbzpVJ-MYe2yVXKez72onsAJ1irPGkWt7pHAYL43xb_WLKcg7sjW-86U11OX/s512-rw/It%20Is%20Unique%20Official.png",
+        description: "Entry Fee",
+        handler: function (response) {
+            const message = `
+🏆 New Tournament Registration:
+👤 Name: ${data.name}
+📱 Phone: ${data.phone}
+🎮 Free Fire ID: ${data.freefire_id}
+🆔 Student ID: ${data.student_id}
+🎂 Age: ${data.age}
+⚧️ Gender: ${data.gender}
+💳 Payment ID: ${response.razorpay_payment_id}
+            `.trim();
+
+            fetch("https://ff.itisuniqueofficial.com/bot.json")
+                .then(res => res.json())
+                .then(json => {
+                    const decodedToken = atob(json.token);
+                    const telegramURL = `https://api.telegram.org/bot${decodedToken}/sendMessage`;
+
+                    return fetch(telegramURL, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            chat_id: "-1002671272866",
+                            text: message
+                        })
+                    });
+                })
+                .finally(() => {
+                    window.location.href = "/payment-success";
+                })
+                .catch(() => {
+                    window.location.href = "/payment-failed";
+                });
+        },
+        prefill: {
+            name: data.name,
+            contact: data.phone
+        },
+        theme: {
+            color: "#ff4646"
+        },
+        modal: {
+            ondismiss: function () {
+                window.location.href = "/payment-failed";
+            }
+        }
+    };
+
+    const rzp = new Razorpay(options);
+    rzp.on("payment.failed", function () {
+        window.location.href = "/payment-failed";
+    });
+
+    rzp.open();
+};
